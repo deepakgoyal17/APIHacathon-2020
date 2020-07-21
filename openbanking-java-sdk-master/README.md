@@ -6,6 +6,8 @@ The sample data used to this demo is kept in sample_data.yml. which should be up
 
 Update the clientid and clientsecret as required in the application.yml in web before booting up the service.
 
+============================================================================================================================================================
+
 The SDK application can run in two different modes, TLS (Basic Authentication) as default, or MATLS (OAuth2). All Open Banking APIs in production use MATLS and therefor it is recommended to use MATLS in production. The SDK is provided with TLS(ClientId/Client Secret) as default to get application quick started. For MATLS you need to obtain Open Banking Transport and Signing Certs. Please refer to [How to run SDK with MATLS](#how-to-run-sdk-with-matls)
 
 ### Modules
